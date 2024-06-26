@@ -1,0 +1,70 @@
+.navbar-nav .nav-item .nav-link:hover {
+    color: red;
+  }
+  .navbar-nav .nav-item .nav-link:active {
+    color: red !important;
+  }
+  
+
+
+.user-profile {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+     position: relative;
+}
+.user-avatar {
+width: 40px;
+height: 40px;
+object-fit: cover;
+}
+img.user-avatar {
+border-radius: 50%;
+}
+.user-profile p {
+font-size: 14px;
+font-weight: 600;
+color: #333;
+margin-bottom: 0 !important;
+}
+.submenu {
+position: absolute;
+top: 100%;
+right: -10%;
+width: 200px;
+min-width: 150px;
+background-color: #fff;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+z-index: 2;
+border-radius: 4px;
+padding: 10px 5px 10px;
+display: none;
+}
+
+.submenu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+width: 100%;
+}
+
+.submenu li {
+display: block;
+margin-bottom: 10px;
+}
+
+.submenu li a {
+color: #333;
+text-decoration: none;
+display: block;
+width: 100%;
+padding: 10px;
+transition: 0.3s linear;
+border-radius: 4px;
+}
+
+.submenu li a:hover {
+color: var(--primary-color);
+background-color: #cacaca;
+}

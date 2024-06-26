@@ -1,0 +1,34 @@
+.user-profile {
+    position: relative; /* Tạo ra một vị trí tương đối */
+}
+
+.user-profile .submenu {
+    display: none; /* Ẩn submenu mặc định */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile:hover .submenu {
+    display: block; /* Hiển thị submenu khi hover vào .user-profile */
+}
+.user-profile .submenu ul {
+    list-style: none; /* Loại bỏ dấu chấm trong danh sách */
+    padding: 0; /* Xóa khoảng cách padding mặc định */
+}
+
+.user-profile .submenu ul li a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: inherit; /* Kế thừa màu từ phần tử cha */
+    display: block; /* Biến liên kết thành phần block */
+    padding: 5px 10px; /* Thêm padding cho liên kết */
+}
+
+.user-profile .submenu ul li a:hover {
+    background-color: #f0f0f0; /* Màu nền khi hover vào liên kết */
+
+}
+/* profile  */
